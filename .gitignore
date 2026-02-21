@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.firebase/
+
+# Sensitive files - NEVER commit these
+*-firebase-adminsdk-*.json
+.env
+.env.local
+.env.production
+*.pem
+*.key
+cloudfare_turn_server_credentials.txt
+functions/.env
+publish.sh
